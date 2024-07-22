@@ -29,6 +29,7 @@ body {
 main {
     display: flex;
     gap: 2rem;
+    align-items: center;
     padding: 1.5rem;
 
     width: min(700px, 90%);
@@ -42,14 +43,14 @@ main {
 }
 
 img {
-    width: 100px;
+    width: 200px;
     aspect-ratio: 1;
     object-fit: cover;
     object-position: center;
     border: transparent;
     border-radius: 50%;
 
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 
 /* typography styles */
