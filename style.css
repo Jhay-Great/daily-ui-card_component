@@ -29,9 +29,9 @@ body {
 main {
     display: flex;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
 
-    width: min(500px, 90%);
+    width: min(700px, 90%);
     height: 300px;
 
     border: none;
@@ -60,7 +60,7 @@ section {
 }
 
 section p:first-child {
-    font-size: clamp(2rem, 3vw, 3rem);
+    font-size: clamp(2rem, 2vw, 3rem);
     letter-spacing: 1.3px;
     font-weight: 600;
 
