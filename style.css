@@ -115,8 +115,15 @@ img {
     /* padding: ; */
 }
 
-section p:first-child {
-    font-size: clamp(1.2rem, 2.5vw, 2rem);
+.content_identifier {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section p:first-child,
+.content_identifier p {
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     letter-spacing: 1.3px;
     font-weight: 600;
     margin-bottom: .5rem;
@@ -124,7 +131,16 @@ section p:first-child {
     text-shadow:  1px 1px rgba(0,0,0,0.5);
 }
 
-section p:nth-child(2) {
+.content_identifier img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.subtitle {
     width: fit-content;
     height: fit-content;
     border-radius: 9px;
@@ -138,7 +154,7 @@ section p:nth-child(2) {
 }
 
 .description {
-    font-size: clamp(1.1rem, 2vw, 1.8rem);
+    font-size: clamp(1.1rem, 1.2vw, 1.5rem);
     letter-spacing: 1px;
     word-spacing: 2px;
     line-height: 30px;
