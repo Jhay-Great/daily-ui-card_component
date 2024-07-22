@@ -9,3 +9,6 @@ E-commerce product card
 News article card
 Profile card
 Event card
+
+## Live host
+Click on this [link](https://jhay-great.github.io/daily-ui-card_component/) to preview.
